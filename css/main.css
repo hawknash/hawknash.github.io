@@ -259,3 +259,59 @@ main#home h1 {
 #about .container2 .container2box {
   flex-basis: 30%;
 }
+
+#about .job {
+  background: #515151;
+  padding: 0 1rem;
+  border-bottom: #eece1a 5px solid;
+}
+
+#about h3 {
+  color: #eece1a;
+  font-weight: bold;
+}
+
+#about .box1 {
+  flex-basis: 35%;
+}
+
+#about .box2 {
+  flex-basis: 65%;
+}
+
+#about #list {
+  list-style-type: none;
+  padding: 0 1rem;
+  padding-bottom: 0;
+}
+
+#work h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+#work h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+#work a {
+  font-weight: normal;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+.projects img {
+  width: 100%;
+  border: 3px solid #fff;
+}
+.projects img:hover {
+  opacity: 0.5;
+  border-color: #eece1a;
+  transition: all 0.5s ease-out;
+}
