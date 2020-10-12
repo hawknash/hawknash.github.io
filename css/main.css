@@ -241,8 +241,8 @@ main#home h1 {
 #about .container1 .bio-image {
   height: 150px;
   width: 150px;
-  background: url("../img/naman.jpg");
-  background-position: center;
+  background: url("../img/n250.jpg");
+  background-position: inherit;
   border-radius: 50%;
   border: solid 3px #eece1a;
   opacity: 1;
