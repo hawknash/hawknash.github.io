@@ -1425,7 +1425,7 @@ main#home h1 {
   }
   #about .container1 .box1 .bio-image {
     margin: auto;
-    background: url("../img/n250.jpg");
+    background: url("./img/n250.jpg");
     background-position: center;
   }
   #about .container1 .box2 {
